@@ -7,8 +7,8 @@ return {
     },
 
     presets = {
-      motions = false, -- adds help for motions
-      operators = false, -- adds help for operators like d, y, ...
+      motions = false,
+      operators = false,
     },
   },
   keys = {
