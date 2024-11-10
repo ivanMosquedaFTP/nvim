@@ -5,6 +5,11 @@ return {
     icons = {
       mappings = false,
     },
+
+    presets = {
+      motions = false, -- adds help for motions
+      operators = false, -- adds help for operators like d, y, ...
+    },
   },
   keys = {
     {
