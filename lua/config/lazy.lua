@@ -67,3 +67,8 @@ require("neocord").setup({
   plugin_manager_text = "Managing plugins", -- Format string rendered when managing plugins (either string or function(plugin_manager_name: string): string)
   workspace_text = "Working on %s", -- Format string rendered when in a git repository (either string or function(project_name: string|nil, filename: string): string)
 })
+
+require("lspconfig").emmet_language_server.setup({
+  filetypes = { "html", "css", "php", "javascript", "typescript" },
+  init_options = {},
+})
