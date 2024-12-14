@@ -10,6 +10,8 @@ return {
       motions = false,
       operators = false,
     },
+
+    preset = "classic",
   },
   keys = {
     {
