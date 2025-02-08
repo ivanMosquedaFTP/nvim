@@ -69,7 +69,12 @@ require("neocord").setup({
 })
 
 require("lspconfig").emmet_language_server.setup({
-  filetypes = { "html", "css", "php", "javascript", "typescript" },
+  filetypes = { "html", "css", "php", "javascript", "typescript", "blade" },
+  init_options = {},
+})
+
+require("lspconfig").intelephense.setup({
+  filetypes = { "php", "blade" },
   init_options = {},
 })
 
