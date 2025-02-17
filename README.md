@@ -1,3 +1,6 @@
+## treesitter installation
+it is required to manually run :TSEditQuery highlights blade and :TSEditQuery injections blade, as well as having html, php and blade parsers already installed
+
 # dependencies
 
 * luarocks
