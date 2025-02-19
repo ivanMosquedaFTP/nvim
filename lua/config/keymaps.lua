@@ -22,3 +22,7 @@ vim.keymap.set("n", "<leader>n", function() harpoon:list():next() end, { desc = 
 
 -- deleted useless fucking stupid ass keymap
 vim.keymap.del("n", "<leader><leader>")
+
+-- scrolling keymaps
+vim.keymap.set("n", "<C-d>", "<C-d>zz")
+vim.keymap.set("n", "<C-u>", "<C-u>zz")
