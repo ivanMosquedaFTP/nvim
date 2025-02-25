@@ -26,3 +26,6 @@ vim.keymap.del("n", "<leader><leader>")
 -- scrolling keymaps
 vim.keymap.set("n", "<C-d>", "<C-d>zz")
 vim.keymap.set("n", "<C-u>", "<C-u>zz")
+
+-- rest.nvim keymaps
+vim.keymap.set("n", "<leader>rr", "<CMD>Rest run<CR>", { desc = "Rest run" })
