@@ -14,6 +14,13 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
+vim.api.nvim_create_autocmd({ "BufRead", "BufNewFile" }, {
+  pattern = "*.ejs",
+  callback = function()
+    vim.bo.filetype = "html"
+  end,
+})
+
 require("lazy").setup({
   spec = {
     -- add LazyVim and import its plugins
