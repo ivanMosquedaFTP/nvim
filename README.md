@@ -1,6 +1,7 @@
 # nvim-new
 
 ## Currently configured to work in the following languages:
+* rust
 * java
 * javascript
 * typescript
