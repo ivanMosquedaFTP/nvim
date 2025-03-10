@@ -83,3 +83,5 @@ parser_config.blade = {
   },
   filetype = "blade", -- if filetype does not match the parser name
 }
+
+require("flutter-tools").setup({}) -- use defaults
