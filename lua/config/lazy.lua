@@ -62,7 +62,7 @@ require("lazy").setup({
 require("oil").setup()
 
 require("lspconfig").emmet_language_server.setup({
-  filetypes = { "html", "css", "php", "javascript", "typescript", "blade" },
+  filetypes = { "html", "css", "php", "javascript", "typescript", "blade", "vue" },
   init_options = {},
 })
 
