@@ -41,3 +41,6 @@ vim.keymap.set("n", "<leader>rr", "<CMD>Rest run<CR>", { desc = "Rest run" })
 -- dadbod.nvim keymaps
 vim.keymap.set("n", "<leader>dt", "<CMD>DBUI<CR>", { desc = "DBUI open" })
 vim.keymap.set("n", "<leader>dc", "<CMD>DBUIClose<CR>", { desc = "DBUI close" })
+
+-- undotree.nvim keymaps
+vim.keymap.set("n", "<leader><F5>", vim.cmd.UndotreeToggle)
