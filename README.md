@@ -30,6 +30,9 @@
 * lua-language-server
 * tailwindcss-language-server
 * vtsls
+* pyright
+* ruff
+* mypy
 
 ### DAP
 * java-debug-adapter
@@ -43,3 +46,6 @@
 * prettier
 * shfmt
 * stylua
+
+### Lazy extras
+* lang: python
